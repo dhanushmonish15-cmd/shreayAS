@@ -1,0 +1,58 @@
+body {
+  background: #020617;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.phone {
+  width: 320px;
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 0 20px #3b82f6;
+}
+
+input, textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #3b82f6;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+#resumePreview {
+  margin-top: 15px;
+  text-align: left;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  button:hover {
+  transform: scale(1.05);
+}
+.phone {
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+button {
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+}
